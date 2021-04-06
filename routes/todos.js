@@ -7,7 +7,7 @@ const dataRepo = require('../data/StudData');
 
 
 app.get('/',(req, res) => {
-    dataRepo.find("Mohammed Mohsin Ali").then((stud_data)=>{
+    dataRepo.find("Bhavin Bansiwal").then((stud_data)=>{
         console.log(stud_data);
     
         // res.statusCode = 200;
