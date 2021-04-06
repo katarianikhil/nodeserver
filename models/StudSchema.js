@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.pluralize(null);
 
-const url = 'mongodb://100.26.217.32:27017/student'
+const url = 'mongodb://52.15.177.88:27017/student'
 const options = {
 useNewUrlParser: true,
 useUnifiedTopology: true,

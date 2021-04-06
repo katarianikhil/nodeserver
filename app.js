@@ -17,6 +17,6 @@ app.use(bodyParser.json());
 
 var router = express.Router();
 const todos = require('./routes/todos');
-app.use('/todos', todos);
+app.use('/api', todos);
 
 app.listen(3000, ()=> console.log("Server Up and running"));
